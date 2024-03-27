@@ -2,11 +2,13 @@ import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom';
+import Header from '../features/Header/Header';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Header></Header>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
